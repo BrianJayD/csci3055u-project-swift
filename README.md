@@ -255,10 +255,53 @@ if (a == b) && (b == c) {...} // Transitivity. Implies a == c.
 
 ## About open source library
 
-> _Describe at least one contribution by the open source
-community written in the language._
+##### Iina - Open Source Media Player Library for macOS
+> This open source library provides a modern framework and user interface for media playback. Based on mpv and designed to enhance media playback for optimal user experiences. Supports media such as videos, audio, pictures etc. Provides support for current technologies on macOS such as the touch bar and force touch. Customizable viewing such as thumbnail preview during playback or a stand alone audio player option if no visuals are required. MPV config files and script systems are also available for advanced users. As well as command line tools and support for browser extentions.
+
+> Reference Links:
+
+> https://lhc70000.github.io/iina/
+
+> https://github.com/lhc70000/iina?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
+
+
 
 # Analysis of the language
 
-> _Organize your report according to the project description
-document_.
+##### Functional vs Procedural Programming
+> Swift is a language that allows you to develop programs using procedural programming. However, Swift is a language that is associated with multi-paradigm languages. What this means is Swift supports more than one style of programming. Allowing for the use of object-oriented programming as well as procedural programming. However, there are tools to allow for functional programming when required.
+
+##### Ability to perform meta-programming (Macros)
+> Objective-C allows the use of macros using *#define* to tell the compiler to replace macro definitions before compiling the code. This is a legacy code adopted from Objective-C, one of the languages that Swift was developed from. However, Swift removes the use of primitive constants and allows for macros to be mapped to global constants. This is easily achievable using the *let* declaration to allow for the Swift program to use the *#define* macro.
+
+##### Support for closure
+> Swift allows support for closure and handles memory management for you. Global and nested functions are examples of supported closures which take three forms (Global functions, Nested functions, Closure expressions). Closure expressions try to provide clean code styles as well as clutter free syntax for easy readability.
+
+##### Functional Programming Constructs
+> Swift supports functional programming constructs such as:
+> - Immutable data. Cannot update values after initial value has been given. Instead create a new variable to handle the new value.
+> - Supports high order functions. Functions and methods are first-class objects.
+> - Maps are supported.
+> - Filter function supported.
+> - Reduce function supported.
+> - Closure supported.
+> - Eager Evaluation. Expressions are calculated when variables are assigned or when methods are called.
+> - Lazy Evaluation. Does not evaluate until necessary.
+> - Recursion. Allows for functions to be called within itself.
+
+##### Static vs Dynamic Types
+> Swift is a static typed language meaning that the compiler needs to know everything about classes, functions and data types during compilation. Although Swift was based of Objective-C, the development of Swift was to eliminate the dynamic aspect from Objective-C. However, Swift can extend your Swift program to acknowledge the dynamic library of Objective-C by using Cocoa.
+
+##### Strengths vs Weaknesses
+> **Strengths**
+> - *Rapid development process*. Simplified syntax allows for easy readability and writing of the language.
+> - Easier to scale.
+> - *Improved safety and performance*. Swift was made to provide safe development with minimal risk of making errors in code as well as optimizes performance.
+> - *Decreased Memory Maintenence*. Swift automatically handles and allocated memory.
+> - *Wide range of open source libraries*. Swift has numerous support from the community, providing open source libraries and is still making improvements to optimize development for programmers.
+
+> **Weaknesses**
+> - *Fairly new language*.
+> - *Community is still growing*. Since the language is new there is is limited help from the community, although it is growing.
+> - *Limited to third-party tools*. Very limited support from IDEs.
+> - *iOS support cut off*. Versions of iOS must be fairly recent in order to create iOS applications.  
