@@ -196,8 +196,62 @@ keyring and activate your PGP signature.
 
 ## About the standard library
 
-> _Give some examples of the functions and data structures
-> offered by the standard library_.
+##### Common Data Types
+> - Integer: Int
+> - Double: Double
+> - Float: Float
+> - String: String
+> - Boolean: Bool
+```swift
+var i: Int = 1
+var d: Double = 1.0
+var f: float = 1.0
+var s: String = "String"
+var b: Bool = true
+```
+
+##### Common data structures
+> - Arrays
+```swift
+let empty = []
+let oddNumbers = [1, 3, 5, 7, 9]
+let animals = ["Cow", "Pig", "Horse"]
+```
+> - Dictionaries
+```swift
+var responseMesseages = [200: "Okay",
+                        403: "Access forbidden",
+                        404: "File not found",
+                        500: "Internal server error"]
+```
+> - Sets
+```swift
+let s: Set = [1, 2, 3, 4, 5]
+if s.contains(1) {
+  print("Found!")
+}
+```
+> - Global Functions such as print
+```swift
+print("Hello World")
+```
+
+##### Protocols
+> - Collections
+```swift
+let text = "Hello my name is ..."
+if let firstSpace = text.firstIndex(of: " ") {
+    print(text[..<firstSpace])
+}
+// Prints "Hello"
+
+```
+> - Equatable
+```swift
+if (a == a) {...} // Reflexivity. Always true.
+if (a == b) {...} // Symmetry. Implies b == a.
+if (a == b) && (b == c) {...} // Transitivity. Implies a == c.
+```
 
 ## About open source library
 
